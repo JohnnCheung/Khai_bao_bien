@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Bài 1:
+        let i = 10;
+        let f = 20.5;
+        let j = true;
+        let s = 'Hà Nội';
+        document.write("i = " + i + "<br>");
+        document.write("f = " + f + "<br>");
+        document.write("j = " + j + "<br>");
+        document.write("s = " + s + "<br>");
+
+        // Bài 2:
+        let width = +prompt("Hãy nhập chiều rộng của hình chữ nhật: ");
+        let heigh = +prompt("Hãy nhập chiều cao của hình chữ nhật: ");
+        let S = width * heigh;
+        document.write("Hình chữ nhật có chiều rộng " + width + ", có chiều cao " + heigh + " có diện tích là " + S);
+
+        // Bài 3:
+        let a = +prompt("Hãy nhập số a: ");
+        let b = +prompt("Hãy nhập số b: ");
+        if(a % b == 0)
+            alert(a + " là bội số của " + b);
+        else
+            alert(a + " không là bội số của " + b);
+
+
+    </script>
+</body>
+</html>
